@@ -1,0 +1,110 @@
+.menu-area {
+    background-color: #FFB800;
+    background-position: top;
+    height: 50px;
+    width:  1425px;
+    position: above ;
+    padding-top: 0px; /* adjust the padding to move the background upward */
+  }
+
+  body {
+    background-image: url(koibackground.png);
+    background-color: rgb(248, 237, 138);
+    background-repeat: no-repeat;
+    background-size: 1450px;
+  }
+  
+  .menu-area ul li a img{
+    width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .menu-area a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #FFB800;
+    height: 60px;
+    font-family:Poppins;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+  
+  }
+  .menu-area a:hover{
+    background: #FFB800;
+    color: #fff;
+  }
+  .menu-area ul{
+    list-style: none;
+    display: flex;
+  }
+  .menu-area li{
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  .menu-area li:hover .dropdown-1 > li{
+    display: block;
+    top: 0;
+  }
+  .dropdown-1 li{
+    display: none;
+    position: relative;
+  }
+  .dropdown-1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .dropdown-1 li:hover {
+
+    display: block;
+  }
+
+  #koi1 {
+    width: 1000px;
+    height: 900px;
+    object-fit: contain;
+    padding-left: 200px;
+    padding-bottom: 70px;
+    margin-top: 100%;
+    margin-right: 20%;
+    float :right;
+}
+
+#koi2 {
+    width: 700px;
+    height: 700px;
+    object-fit: contain;
+    float: right;
+    margin-top: -20% ;
+}
+
+#koi3 {
+    width: 700px;
+    height: 700px;
+    object-fit: contain;
+    float: left;
+    margin-top: -20%;
+    }
+
+    #koi4 {
+        width: 1000px;
+        height: 1200px;
+        object-fit: contain;
+        float: right;
+        margin-right: 10%;
+        margin-bottom: 10%;
+    }

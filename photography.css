@@ -1,0 +1,182 @@
+.menu-area {
+    background-color: #FFB800;
+    background-position: top;
+    height: 50px;
+    width:  1425px;
+    position: above ;
+    padding-top: 0px; /* adjust the padding to move the background upward */
+  }
+
+  body {
+    background-image: url(photography\ background.png), url(dotdot.png);
+    background-color: rgb(248, 237, 138);
+    background-repeat: no-repeat no-repeat;
+    background-size: 100%, cover;
+    background-position: center 100px, center 100px;
+
+  }
+  
+  .menu-area ul li a img{
+    width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .menu-area a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #FFB800;
+    height: 60px;
+    font-family:Poppins;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+  
+  }
+  .menu-area a:hover{
+    background: #FFB800;
+    color: #fff;
+  }
+  .menu-area ul{
+    list-style: none;
+    display: flex;
+  }
+  .menu-area li{
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  .menu-area li:hover .dropdown-1 > li{
+    display: block;
+    top: 0;
+  }
+  .dropdown-1 li{
+    display: none;
+    position: relative;
+  }
+  .dropdown-1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .dropdown-1 li:hover {
+
+    display: block;
+  }
+
+  #photo1 {
+    width: 900px;
+    height: 900px;
+    object-fit: contain;
+    padding-left: 70px;
+    padding-bottom: 90px;
+    margin-top: 85%;
+
+}
+
+#photo2 {
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+    float: right;
+    padding-right: 50px;
+    margin-left: -5%;
+margin-top: -20%;
+}
+
+#photo3 {
+    width: 700px;
+    height: 700px;
+    object-fit: contain;
+    float: left;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    margin-top: 0%;
+    }
+
+    #photo4 {
+        width: 500px;
+        height: 500px;
+        object-fit: contain;
+        float: right;
+        padding-right: 90px;
+        margin-left: -10%;
+    margin-top: -5%;
+    }
+
+    #photo5 {
+        width: 600px;
+        height: 600px;
+        object-fit: contain;
+        float: left;
+        margin-right: 10px;
+       margin-top: -10%;
+    }
+    
+    #photo6 {
+        width: 1200px;
+    height: 1200px;
+    object-fit: contain;
+    float: center;
+margin-top: -10%;
+margin-left:  120px;
+
+    }
+    
+    #photo7 {
+        width: 800px;
+        height: 800px;
+        object-fit: contain;
+        float: left;
+        margin-right: 10px;
+       margin-top: -10%;
+        }
+    
+        #photo8 {
+            width: 600px;
+            height: 600px;
+            object-fit: contain;
+            float: right;
+            padding-right: 80px;
+            margin-left: -20%;
+        margin-top: 20%;
+        }
+
+        #photo9 {
+            width: 600px;
+            height: 600px;
+            object-fit: contain;
+            float: left;
+            margin-left: 200px;
+            margin-bottom: 30px;
+        }
+        
+        #photo10 {
+            width: 800px;
+    height: 800px;
+    object-fit: contain;
+    float: right;
+    margin-left: 80px;
+    margin-bottom: 10px;
+        }
+        
+        #photo11 {
+            width: 700px;
+            height: 700px;
+            object-fit: contain;
+            float: left;
+            padding-left: 50px;
+            margin-left: -10%;
+        margin-top: -70%;
+            }

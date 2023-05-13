@@ -1,0 +1,89 @@
+.menu-area {
+    background-color: #FFB800;
+    background-position: top;
+    height: 50px;
+    width:  1425px;
+    position: above ;
+    padding-top: 0px; /* adjust the padding to move the background upward */
+  }
+
+  body {
+    background-image: url(koi\ project\ .png);
+    background-color: rgb(248, 237, 138);
+    background-size: 1450px;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+  }
+  
+  .menu-area ul li a img{
+    width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .menu-area a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #FFB800;
+    height: 60px;
+    font-family:Poppins;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+  
+  }
+  .menu-area a:hover{
+    background: #FFB800;
+    color: #fff;
+  }
+  .menu-area ul{
+    list-style: none;
+    display: flex;
+  }
+  .menu-area li{
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  .menu-area li:hover .dropdown-1 > li{
+    display: block;
+    top: 0;
+  }
+  .dropdown-1 li{
+    display: none;
+    position: relative;
+  }
+  .dropdown-1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .dropdown-1 li:hover {
+
+    display: block;
+  }
+
+  #project1 {
+    width: 1800px;
+    height: 2000px;
+    object-fit: contain;
+    float: center;
+    margin-top: 60%;
+    margin-right: 500px;
+    padding-right: 20%;
+    position:absolute;
+}
+
+
